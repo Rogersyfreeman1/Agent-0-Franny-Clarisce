@@ -1,0 +1,58 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "username": "Jack",
+  "default_agent": "franny-clarice",
+  "skills": {
+    "paths": [
+      ".opencode/skills",
+      "agent-zero/skills",
+      "herdr/skills",
+      "orca/skills",
+      "claude-skills-official/skills",
+      "codex-skills/skills/.curated",
+      "codex-skills/skills/.system",
+      "perplexity-skills",
+      "thomashighbaugh-skills/skills",
+      "anthropic-skills/skills",
+      "vercel-skills/skills",
+      "cloudflare-skills/skills",
+      "composio-skills/skills",
+      "superpowers/skills",
+      "openhax-skills/.opencode/skills"
+    ]
+  },
+  "agent": {
+    "franny-clarice": {
+      "description": "Franny Clarice — Hyper Task Master! He is an engineer and stock market investor who manages tasks with high energy, prioritizes work, and crushes goals!",
+      "mode": "primary",
+      "color": "#FF00FF",
+      "steps": 75,
+      "permission": {
+        "edit": "allow",
+        "bash": "ask",
+        "task": "allow",
+        "websearch": "allow"
+      }
+    },
+    "build": {
+      "description": "Main coding agent. Writes and edits code, creates files, runs commands.",
+      "mode": "primary",
+      "steps": 50
+    },
+    "plan": {
+      "description": "Planning agent. Researches and creates plans before execution.",
+      "mode": "primary",
+      "steps": 30
+    },
+    "general": {
+      "description": "General-purpose agent for research and non-coding tasks.",
+      "mode": "subagent",
+      "steps": 30
+    },
+    "explore": {
+      "description": "Codebase explorer. Quickly finds files and answers questions.",
+      "mode": "subagent",
+      "steps": 20
+    }
+  }
+}
