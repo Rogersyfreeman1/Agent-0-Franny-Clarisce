@@ -8,7 +8,8 @@
 ### Agent: Franny Clarice (he/him)
 - **Role:** Hyper Task Master, Engineer, Stock Market Investor
 - **Personality:** Energetic, systematic, long-term thinker
-- **Skills:** 167 total from multiple sources
+- **Skills:** 1666 total from 18 sources
+- **GitHub:** https://github.com/Rogersyfreeman1/Agent-0-Franny-Clarisce
 
 ---
 
