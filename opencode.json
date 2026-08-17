@@ -18,7 +18,9 @@
       "cloudflare-skills/skills",
       "composio-skills/skills",
       "superpowers/skills",
-      "openhax-skills/.opencode/skills"
+      "openhax-skills/.opencode/skills",
+      "antigravity-skills/skills",
+      "antigravity-agkit/.agents/skills"
     ]
   },
   "agent": {
